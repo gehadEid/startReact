@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import style from "./Portfolio.module.css";
 import Images from './Images/Images.js';
-import ReactDOM from 'react-dom';
 
 export default class Portfolio extends Component {
   componentDidMount()
@@ -11,7 +10,7 @@ export default class Portfolio extends Component {
     {
       let row = document.querySelector(`.row`);
       let cartona = ``;
-      Images.map((img) => {
+      Images.map((img) => (
         cartona +=`
         <div class="col-md-4">
         <div class="${style.imgContainer} position-relative">
@@ -19,13 +18,14 @@ export default class Portfolio extends Component {
           id="${img.name}"  target="${img.src}" title="${img.description}">
             <i class="fas fa-plus text-white m-auto"></i>
           </div>
+
           <img src="${img.src}" alt="${img.name}"  class="w-100 rounded-3"/>
         </div>
       </div>`
-      })
-      row.innerHTML=cartona;
+      ))
+      row.innerHTML=cartona
     }
-  }
+  };
 
   
   render() {

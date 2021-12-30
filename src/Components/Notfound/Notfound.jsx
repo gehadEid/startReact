@@ -7,7 +7,7 @@ export default function Notfound() {
     return (
         <div>
             <div className="d-flex justify-content-center">
-                <img src={img} className={`${style.img404}`}/>
+                <img src={img} className={`${style.img404}`} alt='404'/>
             </div>
         </div>
     )

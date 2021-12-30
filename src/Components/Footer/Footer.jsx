@@ -21,16 +21,16 @@ export default function Footer() {
 
 
               <div className= {`${style.icon} py-1 `}>
-                <a href="" className= "px-1  ">
+                <a href="https://github.com/gohad-Eid/startReact" className= "px-1  ">
                   <i className={`${style.btnSocial} fab fa-facebook-f  fs-5 btn btn-outline-light rounded-circle`}></i>
                 </a>
-                <a href="" className="px-1">
+                <a href="https://github.com/gohad-Eid/startReact" className="px-1">
                   <i className={`${style.btnSocial} fab fa-twitter  fs-5 btn btn-outline-light  rounded-circle`}></i>
                 </a>
-                <a href="" className="px-1">
+                <a href="https://github.com/gohad-Eid/startReact" className="px-1">
                   <i className={`${style.btnSocial} fab fa-linkedin-in  fs-5 btn btn-outline-light rounded-circle`}></i>
                 </a>
-                <a href="" className="px-1">
+                <a href="https://github.com/gohad-Eid/startReact" className="px-1">
                   <i className={`${style.btnSocial} fab fa-github fs-5 btn btn-outline-light rounded-circle`}></i>
                 </a>
               </div>

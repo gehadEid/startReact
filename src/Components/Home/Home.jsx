@@ -9,7 +9,7 @@ export default function Home() {
         <div className="d-flex justify-content-center align-content-center text-center py-5">
           <div className="parent">
             <div className="img-Home">
-              <img src={img} className={`mt-4 ${style.imgHome}`} />
+              <img src={img} className={`mt-4 ${style.imgHome}`} alt='start' />
             </div>
             <div className="capHome text-white">
               <h1 className="fw-bold mt-4">START REACT</h1>

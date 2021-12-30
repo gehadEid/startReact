@@ -1,0 +1,76 @@
+.contact h2
+{
+    color: rgb(44, 62, 80) !important;
+    font-size: 3rem;
+}
+
+.icon
+{
+    position: relative;
+    margin: auto;
+    width: 4.375rem;
+    color: rgb(44, 62, 80) !important;
+
+}
+
+.icon::before
+{
+    content:'';
+    position: absolute ;
+    top: 50%;
+    left: 0%;
+    transform: translateX(-100%);
+    width: 7.5rem;
+    height: 0.25rem;
+    border-radius: 0.28rem;
+    background-color: rgb(44, 62, 80) !important;
+
+}
+
+.icon::after
+{
+    content:'';
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateX(100%);
+    width: 7.5rem;
+    height: 0.25rem;
+    border-radius: 0.28rem;
+    background-color: rgb(44, 62, 80) !important;
+}
+
+.contactName
+{
+    
+    width: 100%;
+    border: none;
+    box-shadow: none !important;
+  
+}
+
+input:focus
+{
+    background-color: #e9ecef !important;
+    border-radius: 0%;
+}
+
+/* label
+{
+    display: none;
+} */
+
+
+.contactLine
+{
+    border-bottom: 1px solid #e9ecef;
+}
+
+
+button
+{
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(26, 188, 156) !important;
+    border-color: rgb(26, 188, 156) !important;
+    font-size: 1.5rem !important;
+}

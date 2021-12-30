@@ -1,0 +1,68 @@
+.Portfolio h2
+{
+    color: rgb(44, 62, 80) !important;
+    font-size: 3rem;
+}
+
+.icon
+{
+    position: relative;
+    margin: auto;
+    width: 4.375rem;
+    color: rgb(44, 62, 80) !important;
+
+}
+
+.icon::before
+{
+    content:'';
+    position: absolute ;
+    top: 50%;
+    left: 0%;
+    transform: translateX(-100%);
+    width: 7.5rem;
+    height: 0.25rem;
+    border-radius: 0.28rem;
+    background-color: rgb(44, 62, 80) !important;
+
+}
+
+.icon::after
+{
+    content:'';
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateX(100%);
+    width: 7.5rem;
+    height: 0.25rem;
+    border-radius: 0.28rem;
+    background-color: rgb(44, 62, 80) !important;
+}
+.imgContainer
+{
+    transition: all 1s !important;
+}
+
+.imgLayer
+{
+    background-color:  #1abc9c !important;
+    display: none;
+
+}
+
+.imgContainer:hover .imgLayer
+{
+    display: flex;
+}
+
+.imgContainer , .imgLayer
+{
+    cursor: pointer;
+}
+
+
+.imgLayer i
+{
+    font-size: 5rem;
+}

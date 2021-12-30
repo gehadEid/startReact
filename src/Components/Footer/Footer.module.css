@@ -1,0 +1,47 @@
+.content
+{
+    background-color: #2c3e50 !important;
+
+}
+
+.copyRight
+{
+    background-color: #1a252f;
+}
+
+/* .btnSocial
+{
+    border-radius: 100%;
+    width: 3.25rem ;
+    height: 3.25rem ;
+    font-size: 1.25rem ;
+   
+} */
+
+.icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.icon a
+{
+    text-decoration: none;
+}
+
+.icon i
+{
+    color: #f8f9fa;
+    border: 0.15rem solid  #f8f9fa !important;
+    border-radius: 100%;
+    width: 3.25rem ;
+    height: 3.25rem ;
+    font-size: 1.25rem ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+

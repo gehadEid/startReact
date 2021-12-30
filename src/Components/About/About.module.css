@@ -1,0 +1,45 @@
+.about
+{
+    background-color: #1abc9c;
+}
+
+.icon
+{
+    position: relative;
+    margin: auto;
+    width: 4.375rem;
+}
+
+.icon::before
+{
+    content:'';
+    position: absolute ;
+    top: 50%;
+    left: 0%;
+    transform: translateX(-100%);
+    width: 7.5rem;
+    height: 0.25rem;
+    border-radius: 0.28rem;
+    background-color:white;
+}
+
+.icon::after
+{
+    content:'';
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translateX(100%);
+    width: 7.5rem;
+    height: 0.25rem;
+    border-radius: 0.28rem;
+    background-color:white;
+}
+.about p
+{
+    font-size: 1.3rem;
+}
+.about h2
+{
+    font-size: 3rem;
+}
